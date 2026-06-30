@@ -1,0 +1,13 @@
+def students_above_80(marks):
+
+    result = []
+
+    for mark in marks:
+
+        if mark > 80:
+            result.append(mark)
+
+    return result
+
+
+print(students_above_80([75, 82, 90, 68, 95]))
